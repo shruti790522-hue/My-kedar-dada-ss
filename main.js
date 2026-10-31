@@ -1,5 +1,5 @@
 /* ================= CONFIG — edit these ================= */
-const PASSCODE = "2006";               // 4-digit secret code
+const PASSCODE = "2009";               // 4-digit secret code
 const COUNTDOWN_SECONDS = 4;           // curtain clock time before it opens
 
 // Put your own sticker/photo files in assets/stickers/ and set the path here.
@@ -22,10 +22,10 @@ const MEMORIES = [   // add/remove freely: [image or null, caption]
   [null, "Secret Agent & Pup 🐶"]
 ];
 const LETTER = [
-  "Happy birthday to my favourite person! 🤍",
+  "Happy birthday to my bhai! 🤍",
   "I hope this year brings you everything you've been wishing for and so much more. Thank you for making my days happier, my bad days easier, and my life a little more beautiful just by being in it. 🥺💗",
   "I'm so lucky to have you, and I can't wait to make a million more memories with you. Here's to you, your dreams, and all the happiness you deserve.",
-  "Happy birthday, my love. I love you more than you know. 🫶🧸💗"
+  "Happy birthday, my bhai. I love you more than you know. 🫶🧸💗"
 ].join("\n\n");
 /* ======================================================= */
 
@@ -217,7 +217,7 @@ function lightCandles() {
 }
 function checkOut() {
   if ($$(".candle:not(.out)").length === 0) {
-    $("#wishTitle").textContent = "HAPPY BIRTHDAY! 🎉";
+    $("#wishTitle").textContent = "HAPPY BIRTHDAY Bhai! 🎉";
     $("#wishBar").classList.remove("hide"); $("#wishHint").classList.add("hide");
     confetti(200);
   }
